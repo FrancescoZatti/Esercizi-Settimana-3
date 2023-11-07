@@ -268,7 +268,7 @@ console.log(titoli);
 */
 
 let filmVecchi = movies.filter((film) => 
-    film.Years. < 2000);
+    parseInt(film.Year) < 2000);
 
     console.log(filmVecchi);
 
@@ -276,10 +276,23 @@ let filmVecchi = movies.filter((film) =>
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
 
+let sumY = movies.reduce((acc, value) => {
+  let n = parseInt(value.Year, 10);
+  return acc + n;
+}, 0);
+
+console.log(sumY);
+
 /* ESERCIZIO 14 (find)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
 
+let filmX = movies.find(x => x.imdbID === "tt0077869");
+console.log(filmX)
+
 /* ESERCIZIO 15 (findIndex)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.
 */
+
+let filmIndex = movies.findIndex(i => i.Year === '2005');
+console.log(filmIndex);
