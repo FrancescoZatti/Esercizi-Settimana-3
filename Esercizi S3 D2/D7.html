@@ -34,6 +34,7 @@
   </head>
 
   <body>
+    <div id="container">
     <div>
       <h1 onclick="makeItClickable()">Questo è il titolo della pagina</h1>
       <h2>Questo è il sottotitolo della pagina</h2>
@@ -79,6 +80,7 @@
         >
       </h3>
     </footer>
+    </div>
     <script>
       /* ESERCIZIO 1
        Scrivi una funzione per cambiare il titolo della pagina in qualcos'altro
@@ -294,15 +296,18 @@
       Crea una funzione che elimini le vocali da ogni elemento testuale della pagina (puoi aiutarti con i nuovi metodi degli array di ES6)
     */
 
-      const deleteVowels = function () {}/*{
-      let vocale = ("a" || "e" || "i" || "o" || "u");
-      let testo = querySelector("body").textContent;
-      for (let i = 0; i < testo.length; i++) {
-        if (i.toLowerCase() === vocale) {
-          testo.remove(i);
+      const deleteVowels = function () {
+      let vocale = ["a", "e", "i", "o", "u"];
+      let body = document.querySelector("#container");
+      let textContent = body.textContent;
+
+      for (let i = 0; i < textContent.length; i++) {
+        if (vocale.includes(textContent[i].toLowerCase())) {
+          textContent = textContent.replace(textContent[i], "");
+          body.innerText = textContent;
         }
       }
-      }*/
+      }
 
       deleteVowels();
       
