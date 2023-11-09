@@ -24,7 +24,7 @@ addTask.addEventListener('click', function(e) {
 
         task.appendChild(deleteButton);
 
-        /*let checkTask = document.createElement("input");
+        let checkTask = document.createElement("input");
         checkTask.type = "checkbox";
         checkTask.addEventListener('change', function() {
             if (checkTask.checked) {
@@ -34,7 +34,7 @@ addTask.addEventListener('click', function(e) {
             }
         });
 
-        task.appendChild(checkTask);*/
+        task.appendChild(checkTask);
 
         document.querySelector('#listArea').appendChild(task);
 
