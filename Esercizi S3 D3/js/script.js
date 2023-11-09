@@ -1,5 +1,5 @@
 
-let addTask = document.querySelector('form');
+let addTask = document.querySelector('form input[name="addTask"]');
 
 addTask.addEventListener('click', function(e) {
     e.preventDefault();

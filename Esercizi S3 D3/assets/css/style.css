@@ -3,11 +3,11 @@
 .container {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    background-color: #8F787B;
+    background-color: #C2939A;
 }
 
 header, footer {
-    background-color: #33161B;
+    background: linear-gradient(180deg, rgba(51,22,27,1) 0%, rgba(71,40,45,1) 100%);
     color: #C2939A;
     font-weight: 600;
 }
@@ -17,17 +17,74 @@ header, footer {
     height: auto;
     width: auto;
     padding: 1rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-variant: small-caps;
  }
 
  header h2 {
     border-left: 2rem;
     color: #C2939A;
+    border-color: #F58A9A;
     border-style: double;
     padding-left: 1rem;
+    background: linear-gradient(90deg, rgba(92,59,64,1) 0%, rgba(71,40,45,0) 100%);
+ }
+
+ header h2 span {
+    color: #F58A9A;
  }
 
 /*MAIN*/
 
+main {
+    color: #33161B;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+main h1 span {
+    color: #F58A9A;
+    display: block;
+    text-shadow: 0.1rem 0.1rem 0.1rem#33161B;
+}
+
+main section h1 {
+    font-variant: small-caps;
+    font-weight: 600;
+    font-size: 2.5rem;
+    background-color: #8F787B;
+    width: 25rem;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem #33161B;
+    padding: 0.5rem;
+}
+
+main section div {
+    background-color: #d5b3b8;
+    margin: 0 10rem;
+}
+
+
 /*FOOTER*/
+
+footer {
+    text-align: center;
+    padding: 3rem 0 6rem 0;
+}
+
+footer span {
+    font-size: 1.5rem;
+    display: block;
+    color: #F58A9A;
+}
+
+footer section {
+    background-color: #5C3B40;
+    width: 20rem;
+    height: 5rem;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 2rem #33161B;
+    padding: 2rem 0 0rem 0;
+}

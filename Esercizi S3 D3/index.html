@@ -10,30 +10,30 @@
 <body>
     <div class="container">
         <header>
-            <h2>To Do List!</h2>
+            <h2>To <span>Do</span> List!</h2>
         </header>
         <main>
             <section>
-                <h1>Crea la tua To do list!</h1>
+                <h1>Crea la tua <span>To Do list!</span></h1>
                 <div>
                     <p>Scrivi i tuoi task:</p>
                     <form>
                         <input type="text" name="task" placeholder="Scrivi qui i task">
-                        <input type="button" value="Aggiungi Task" >
+                        <input type="button" name="addTask" value="Aggiungi Task">
+                        <p>Clicca sul task completato per spuntarlo.</p>
                     </form>
                 </div>
             </section>
             <article>
-                <div>
-                    <p>Clicca sul task completato per spuntarlo.</p>
-                </div>
                 <ol id="listArea">
                 </ol>
             </article>
         </main>
         <footer>
-            <h3>Hai finito?</h3>
-            <!-- cerca di inserire un pulsante di refresh. -->
+            <section>
+                <div>Hai finito i tuoi task?
+                <span>COMPLIMENTI!</span></div>
+            </section>
         </footer>
     </div>
 
