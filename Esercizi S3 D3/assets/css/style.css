@@ -1,0 +1,33 @@
+/*UNIVERSALI*/
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #8F787B;
+}
+
+header, footer {
+    background-color: #33161B;
+    color: #C2939A;
+    font-weight: 600;
+}
+
+/*HEADER*/
+ header { 
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-variant: small-caps;
+ }
+
+ header h2 {
+    border-left: 2rem;
+    color: #C2939A;
+    border-style: double;
+    padding-left: 1rem;
+ }
+
+/*MAIN*/
+
+/*FOOTER*/

@@ -299,7 +299,7 @@
       const deleteVowels = function () {
       let vocale = ["a", "e", "i", "o", "u"];
       let body = document.querySelector("#container");
-      let textContent = body.textContent;
+      let textContent = body.innerText;
 
       for (let i = 0; i < textContent.length; i++) {
         if (vocale.includes(textContent[i].toLowerCase())) {
