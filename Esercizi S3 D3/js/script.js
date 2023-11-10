@@ -17,7 +17,7 @@ addTask.addEventListener('click', function(e) {
             }
             });
         let deleteButton = document.createElement("button");
-        deleteButton.innerText = "-";
+        deleteButton.innerText = "Elimina Task";
         deleteButton.addEventListener('click', function() {
             task.parentNode.removeChild(task);
         });
