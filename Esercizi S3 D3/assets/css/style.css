@@ -61,7 +61,6 @@ main section h1 {
 }
 
 main section div {
-    background-color: #d5b3b8;
     text-align: center;
     padding: 1rem 0;
 }
@@ -120,7 +119,7 @@ main section div {
 
  article {
     width: auto;
-    margin: 2rem auto;
+    margin: 2rem 2rem;
     background-color: rgb(255, 255, 255);
     box-shadow: 0.2rem 0.2rem 1rem #33161B;
     background-image: url('../images/Screenshot\ 2023-11-10\ 102120.png');
