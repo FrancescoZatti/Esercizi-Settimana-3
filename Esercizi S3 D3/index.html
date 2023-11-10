@@ -16,11 +16,13 @@
             <section>
                 <h1>Crea la tua <span>To Do list!</span></h1>
                 <div>
-                    <p>Scrivi i tuoi task:</p>
+                    <p>Scrivi i tuoi Task:</p>
                     <form>
-                        <input type="text" name="task" placeholder="Scrivi qui i task">
-                        <input type="button" name="addTask" value="Aggiungi Task">
-                        <p>Clicca sul task completato per spuntarlo!</p>
+                        <div>
+                            <input class="createTask" type="text" name="task" placeholder="Scrivi qui i tuoi Task">
+                            <input class="addTask" type="button" name="addTask" value="+">
+                        </div>
+                        <p>Clicca sul task completato per <span>spuntarlo!</span></p>
                     </form>
                 </div>
             </section>
@@ -30,9 +32,15 @@
             </article>
         </main>
         <footer>
-            <section>
-                <div>Hai finito i tuoi task?
-                <span>COMPLIMENTI!</span></div>
+            <section id="complimenti">
+                <div>
+                    <p>Hai finito i tuoi task?
+                    <span>COMPLIMENTI!</span></p>
+                </div>
+            </section>
+            <section id="credit">
+                <p>Made with <span>&hearts;</span></p>
+                <p>Francesco Zatti</p>
             </section>
         </footer>
     </div>

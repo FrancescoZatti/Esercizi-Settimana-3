@@ -17,14 +17,14 @@ addTask.addEventListener('click', function(e) {
             }
             });
         let deleteButton = document.createElement("button");
-        deleteButton.innerText = "Cancella Task";
+        deleteButton.innerText = "-";
         deleteButton.addEventListener('click', function() {
             task.parentNode.removeChild(task);
         });
 
         task.appendChild(deleteButton);
 
-        let checkTask = document.createElement("input");
+        /*let checkTask = document.createElement("input");
         checkTask.type = "checkbox";
         checkTask.addEventListener('change', function() {
             if (checkTask.checked) {
@@ -34,7 +34,7 @@ addTask.addEventListener('click', function(e) {
             }
         });
 
-        task.appendChild(checkTask);
+        task.appendChild(checkTask);*/
 
         document.querySelector('#listArea').appendChild(task);
 
