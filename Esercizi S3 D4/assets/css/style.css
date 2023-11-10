@@ -1,0 +1,26 @@
+
+body {
+    font-size: 1em;
+}
+
+#tabellone div {
+    border: 0.1rem;
+    border-style: solid;
+    border-color: black;
+    width: 10%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 1rem 0;
+}
+
+.giocatore .cellaGiocatore {
+    border: 0.1rem;
+    border-style: solid;
+    border-color: black;
+    width: 10%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 1rem 0;
+}
